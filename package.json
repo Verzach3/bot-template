@@ -1,0 +1,18 @@
+{
+  "name": "bot-maria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "typescript": "^4.6.3"
+  }
+}
